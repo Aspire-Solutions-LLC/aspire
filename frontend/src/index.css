@@ -1,0 +1,84 @@
+.logo {
+  font-family: "Sedgwick Ave", cursive;
+  color: white;
+  font-size: 2.5rem;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+header {
+  background-color: #01579b;
+}
+.check {
+  color: green;
+}
+.cardHeader {
+  color: steelblue;
+  font-weight: bold;
+}
+.bgBlue {
+  background-image: linear-gradient(to top left, rgba(255, 0, 0, 0), #0288d1);
+}
+
+.headerText {
+  font-size: 2rem;
+  color: white;
+  font-weight: bolder;
+}
+.large-black-text {
+  color: black;
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  line-height: 2.7rem;
+}
+.large-white-text {
+  color: white;
+  font-size: 72px;
+  font-family: "Lato", sans-serif;
+}
+.med-black-text {
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+.med-green-text {
+  color: green;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  line-height: 1.5em;
+  font-family: "Lato", sans-serif;
+}
+.med-yellow-text {
+  color: yellow;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: "Lato", sans-serif;
+}
+.large-white-text {
+  color: white;
+  font-size: 54px;
+  font-family: "Lato", sans-serif;
+  line-height: 1em;
+}
+.white-text {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+}
+.midsection {
+  background-color: #01579b;
+}
+.navlinks {
+  font-size: 1.2rem;
+  color: white !important;
+}
+.tablehead {
+  background-color: tomato;
+  font-size: 1.5rem;
+  color: white;
+}
+.highlight {
+  font-weight: bolder;
+}
