@@ -10,7 +10,7 @@ const HomeScreen = () => {
                     <Col >
                     <span className="headerText">Online Coding School</span><br />
                         
-                        <span className="large-white-text">JUMPSTART YOUR NEW CAREER</span><br />
+                        <span className="large-white-text">JUMPSTART YOUR CAREER FOR FREE</span><br />
                         <p className="white-text">The most affordable, comprehensive coding school</p>
                         
                         <p>
@@ -92,7 +92,7 @@ const HomeScreen = () => {
                     <Card.Text className="med-yellow-text">Software Engineering Immersive</Card.Text>
                     <Card.Text className="med-black-text">
                     <ul>
-                        <li>Full time (8am -4pm M-F)</li>
+                        <li>Full time (8am -4pm PST M-F)</li>
                         <li>Duration: 6 to 9 months</li>
                         <li>Pay upfront, monthly, or defer until hired</li>
                     </ul>
@@ -166,7 +166,7 @@ const HomeScreen = () => {
 
     <tr>
       <td>Support From Instructors</td>
-      <td></td>
+      <td>Limited</td>
       
       <td><i className='fas fa-check check'></i> </td>
     </tr>
