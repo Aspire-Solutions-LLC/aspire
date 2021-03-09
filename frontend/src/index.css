@@ -1,16 +1,24 @@
 .logo {
-  font-family: "Sedgwick Ave", cursive;
+  font-family: "Patua One", cursive;
   color: white;
   font-size: 2.5rem;
+}
+h2 {
+  font-family: "Lato";
+  color: white;
+  font-size: 2rem;
 }
 body {
   margin: 0px;
   padding: 0px;
   border: 0px;
 }
-
+.rating {
+  color: orange;
+  font-size: 3rem;
+}
 header {
-  background-color: #01579b;
+  background-color: #0d47a1;
 }
 .check {
   color: green;
@@ -20,7 +28,23 @@ header {
   font-weight: bold;
 }
 .bgBlue {
-  background-image: linear-gradient(to top left, rgba(255, 0, 0, 0), #0288d1);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(31, 31, 231, 1) 0%,
+    rgba(0, 212, 255, 1) 72%
+  );
+}
+
+.bgImage {
+  background-image: url("./images/vanfleet-van.png");
+}
+.right-image {
+  width: 60rem;
+}
+.upperSection {
+  background-image: url("./images/vanfleet-plumber-illus.jpg");
 }
 
 .headerText {
@@ -81,4 +105,16 @@ header {
 }
 .highlight {
   font-weight: bolder;
+}
+.image_home {
+  width: 600px;
+  height: 400px;
+}
+.reset {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+}
+.boxed {
+  padding: 50px 80px !important;
 }

@@ -4,58 +4,102 @@ const HomeScreen = () => {
     return (
         <div>
             
-            <Jumbotron className="bgBlue">
-            <Container>
-                <Row>
-                    <Col >
-                    <span className="headerText">Online Coding School</span><br />
-                        
-                        <span className="large-white-text">JUMPSTART YOUR CAREER FOR FREE</span><br />
-                        <p className="white-text">The most affordable, comprehensive coding school</p>
-                        
-                        <p>
-            
-                    <Button variant="primary">Learn more</Button>
-                        </p>
-                        </Col>
-                        <Col>
-             <Card
+            <Jumbotron fluid="true" className="bgBlue" >
+              
+            <Container className="reset" fluid>
+                <Row >
+                  <Col sm={8}>
+                    <p className="med-yellow-text highlight mx-5">
+                      Pennslyvania's Plumbing and Electrical Services
+                    </p>
+                    <div className="large-white-text mx-5">
+                      HIRE THE BEST
+                    </div>
+                    <div className="white-text mx-5">Van Fleet Services LLC is a one-stop shop for all your plubming and electrical needs. We pride ourselves with quality work. Whatever your needs, we get it right the first time</div>
+                    <div><Button className="m-5" variant="light">Contact Us</Button></div>
+                  </Col>
+                  <Col sm={4}>
+                        <Card
                 bg="light"
                 text="dark"
-                style={{ width: '30rem' }}
-                className="mb-2"
+                style={{ width: '30rem'}}
+                className="m-3"
                 >
                    
                     <Card.Body>
-                    <Card.Text className="med-green-text"><center>Software Engineering Immersive</center></Card.Text>
+                    <Card.Text className="med-green-text"><center>100% Satisfaction Guaranteed</center></Card.Text>
                     <Card.Text className="med-black-text">
-                        <i className='fas fa-check check'></i> Pay now or after you get hired<br />
-                        <i className='fas fa-check check'></i> Get hired or pay nothing<br />
-                        <i className='fas fa-check check'></i> 1-on-1 Mentorship<br />
-                        <i className='fas fa-check check'></i> 100% online<br />
-                        <i className='fas fa-check check'></i> Project-based learning<br />
-                        <i className='fas fa-check check'></i> Earn $100k+ as a software engineer<br />
+                        <i className='fas fa-check check'></i> 24/7 Emergency Services<br />
+                        <i className='fas fa-check check'></i> PA Licensed and Insured<br />
+                        <i className='fas fa-check check'></i> No Emergency or Overtime Charges!<br />
+                        <i className='fas fa-check check'></i> All your plumbing & electrical needs<br />
+                        <i className='fas fa-check check'></i> Same Day Service<br />
+                      
+
                     </Card.Text>
                     <center>
-                    <Button className="btn-lg" variant="primary">Apply Now</Button>
+                    <Button className="btn-lg" variant="primary">Contact</Button>
                     </center>
                     </Card.Body>
                 </Card>
-                </Col>
+                         </Col>
+                        
+                        
+           
+                
+                </Row>
+                <Row className="highlight text-center">
+                  <Col>
+                  <span>
+                        <i className='fas fa-star rating'></i>
+                        <i className='fas fa-star rating'></i>
+                        <i  className='fas fa-star rating'></i>
+                        <i className='fas fa-star rating'></i>
+                        <i className='fas fa-star rating'></i> 
+                           </span>
+                           <h2>Google 5-Star Rating</h2>
+                  </Col>
                 </Row>
              
                 </Container>
             </Jumbotron>
-            <Container className='py-5'>
-                    <Row>
-                        <Col>
-                        <Image src="./images/laptop_girl.jpg" rounded/>
-                        </Col>
-                        <Col className="large-black-text">
-                            Work with a team of students to build portfolio-ready projects <p className="py-3 med-green-text">Learn with hands-on instruction with instructors who are ready to assist you.</p>
-                        </Col>
-                    </Row>
+            <Container fluid="true">
+                <Row>
+                  <Col>
+                  FORM GOES HERE
+                    
+                  </Col>
+                  <Col >
+                    <Image className="right-image" src="./images/vanfleet-van.png"/>
+                  
+                    
+                  </Col>
+                </Row>
                 </Container>
+            <Container>
+              <Row className="text-center"><Col>
+                        <Image src="./images/vanfleet-icon-van.png" /></Col>
+                      
+                        
+                       <Col>
+                        <Image src="./images/vanfleet-icon-waterheater.png" /></Col>
+                       
+                            
+                       <Col>
+                        <Image src="./images/vanfleet-icon-clogged-pipe.png" /></Col>
+                         
+                      
+                       <Col> <Image src="./images/vanfleet-icon-pipe.png" /></Col>
+                </Row>
+                <Row className="text-center">
+                <Col><span className="med-black-text highlight">Fast, Same Day Service</span></Col>
+                <Col>    <span className="med-black-text highlight">Water Heaters, Sump Pumps</span></Col>
+                <Col>    <span className="med-black-text highlight">Clogged Drain? We fix anything!</span></Col>
+                <Col>   <span className="med-black-text highlight">Leaks? Call us!</span></Col>
+                        
+               </Row>        
+                    </Container>
+                
                 <Jumbotron className="midsection">
                 <Container >
                 <Row>
@@ -68,12 +112,12 @@ const HomeScreen = () => {
                 >
                    
                     <Card.Body>
-                    <Card.Text className="med-yellow-text">Self-Paced Program </Card.Text>
+                    <Card.Text className="med-yellow-text">Key Technologies </Card.Text>
                     <Card.Text className="med-black-text">
-                        <li> Study anytime, anywhere</li>
-                        <li> Pay monthly or annually<span class="badge bg-warning">Save</span></li>
-                        <li><strike>$199</strike> $99 a month <span class="badge bg-warning">Limted Time Offer</span></li>
-                        <li> Awesome Instructors</li>
+                        <li>MongoDB, Express, React, Node (MERN)</li>
+                        <li> Experts with all databases</li>
+                        <li>Swift, Java, Kotlin</li>
+                        
                         
                     </Card.Text>
                     
@@ -89,13 +133,11 @@ const HomeScreen = () => {
                 >
                    
                     <Card.Body>
-                    <Card.Text className="med-yellow-text">Software Engineering Immersive</Card.Text>
+                    <Card.Text className="med-yellow-text">What We Do</Card.Text>
                     <Card.Text className="med-black-text">
-                    <ul>
-                        <li>Full time (8am -4pm PST M-F)</li>
-                        <li>Duration: 6 to 9 months</li>
-                        <li>Pay upfront, monthly, or defer until hired</li>
-                    </ul>
+                    
+                        We do it all! Let us handle everything from hosting to design and development. 
+                  
                     </Card.Text>
                      </Card.Body>
                 </Card>
@@ -111,72 +153,49 @@ const HomeScreen = () => {
                           <Table className="med-black-text" variant="light" responsive striped bordered hover>
   <thead className="tablehead">
     <tr>
-      <th>Fulltime vs. Self-Paced</th>
-      <th>Self-Paced</th>
-      <th>Fulltime Software Engineering Immersive</th>
+      <th>Technologies and Competencies</th>
+      <th>Service</th>
+     
       
     </tr>
   </thead>
   <tbody>
     <tr>
+      
       <td>Cost</td>
-      <td>$1999 annually or <strike>$199</strike> $99/month</td>
-      <td>$9975 upfront or defer payment until hired</td>
+      <td>Hourly or Contract</td>
       
     </tr>
-    <tr>
-      <td>Program Duration</td>
-      <td>Unlimited time</td>
-      <td>6 to 9 months</td>
-    </tr>
+  
     
     <tr>
-      <td>Real-World Projects</td>
+      <td>Product Management</td>
       <td><i className='fas fa-check check'></i></td>
       
-      <td><i className='fas fa-check check'></i> </td>
+      
     </tr>
     <tr>
-      <td>Job Search Training</td>
-      <td></td>
-      
+      <td>Latest Technologies (Node, React)</td>
       <td><i className='fas fa-check check'></i> </td>
     </tr>
 
     <tr>
-      <td>Up-to-date Curriculum</td>
-      <td><i className='fas fa-check check'></i></td>
-      
+      <td>Outsourcing - Save 70%</td>
+      <td><i className='fas fa-check check'></i> </td>
+    </tr>
+    <tr>
+      <td>Responsive Web Design & Development</td>
+      <td><i className='fas fa-check check'></i> </td>
+    </tr>
+    <tr>
+      <td>Mobile App Development (iOS and Android)</td>
+      <td><i className='fas fa-check check'></i> </td>
+    </tr>
+    <tr>
+      <td>Satisfaction Guaranteed</td>
       <td><i className='fas fa-check check'></i> </td>
     </tr>
 
-    <tr>
-      <td>1-on-1 Mentorship</td>
-      <td></td>
-      
-      <td><i className='fas fa-check check'></i> </td>
-    </tr>
-
-    <tr>
-      <td>Team Work</td>
-      <td></td>
-      
-      <td><i className='fas fa-check check'></i> </td>
-    </tr>
-
-    <tr>
-      <td>Support From Instructors</td>
-      <td>Limited</td>
-      
-      <td><i className='fas fa-check check'></i> </td>
-    </tr>
-
-    <tr>
-      <td>Aspire Labs (Project-building Program)</td>
-      <td></td>
-      
-      <td><i className='fas fa-check check'></i> </td>
-    </tr>
     
   </tbody>
 </Table>
