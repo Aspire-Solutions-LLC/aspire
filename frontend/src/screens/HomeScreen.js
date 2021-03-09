@@ -77,7 +77,7 @@ const HomeScreen = () => {
                 </Row>
                 </Container>
             <Container>
-              <Row className="text-center"><Col>
+              <Row className="text-center mt-5"><Col>
                         <Image src="./images/vanfleet-icon-van.png" /></Col>
                       
                         
@@ -91,7 +91,7 @@ const HomeScreen = () => {
                       
                        <Col> <Image src="./images/vanfleet-icon-pipe.png" /></Col>
                 </Row>
-                <Row className="text-center">
+                <Row className="text-center mb-5">
                 <Col><span className="med-black-text highlight">Fast, Same Day Service</span></Col>
                 <Col>    <span className="med-black-text highlight">Water Heaters, Sump Pumps</span></Col>
                 <Col>    <span className="med-black-text highlight">Clogged Drain? We fix anything!</span></Col>
